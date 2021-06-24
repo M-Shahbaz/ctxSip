@@ -3,7 +3,7 @@ $gitDir = __DIR__.('/../git/ctxSip/');
 
 $gitFile = $gitDir.'packed-refs';
 if (file_exists($gitFile)) {
-	echo 'The file ' . $gitFile . ' exists';
+	echo 'The file ' . $gitFile . ' exists.test';
 	$file = fopen($gitFile, "r");
 	while(!feof($file)) {
 	  $line     = fgets($file); 
